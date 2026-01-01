@@ -13,11 +13,12 @@
 
 ## 📖 Descrição Geral
 
-Este repositório centraliza minha jornada no curso **Desenvolvimento Web Completo — 20 cursos + 20 projetos**, com foco em evolução contínua e publicação incremental.  
-A cada avanço, o repositório será atualizado com **anotações, exercícios, projetos e checkpoints de progresso**, garantindo rastreabilidade do aprendizado e consistência na entrega.
+Este repositório centraliza minha jornada no curso **Desenvolvimento Web Completo — 20 cursos + 20 projetos**, com foco em **evolução contínua** e **publicação incremental**.
+
+A cada avanço, o repositório será atualizado com **anotações, exercícios, projetos e checkpoints de progresso**, garantindo rastreabilidade do aprendizado, consistência e uma governança previsível do conteúdo.
 
 **Conteúdo do curso:** 29 seções • 645 aulas • Duração total: **120h 09m**  
-**Stack principal:** HTML5, CSS3, CSS avançado, Bootstrap 4, SASS, JavaScript, ES6/OO, PHP, MySQL, Ajax, jQuery, MVC, APIs (Slim), IONIC, WordPress e Git/GitHub.  
+**Stack principal:** HTML5, CSS3, CSS avançado, Bootstrap 4, SASS, JavaScript, ES6/OO, PHP, MySQL, Ajax, jQuery, MVC, APIs (Slim), IONIC, WordPress e Git/GitHub  
 **Criado por:** Jorge Sant Ana, Jamilton Damasceno
 
 ---
@@ -27,11 +28,28 @@ A cada avanço, o repositório será atualizado com **anotações, exercícios, 
 - Consolidar o aprendizado em uma trilha prática (conteúdo + aplicação)
 - Manter um **histórico auditável** de evolução (commits por etapa/tema)
 - Construir um portfólio incremental com projetos, melhorias e refatorações
-- Padronizar estudos com uma estrutura previsível (governança do repo)
+- Padronizar estudos com uma estrutura previsível (governança do repositório)
 
 ---
 
-## 📦 Estrutura do Projeto (Padrão do Repositório)
+## 🧭 Como Navegar (Padrão de Governança)
+
+Para manter um fluxo consistente e fácil de auditar:
+
+- Cada seção do curso possui uma pasta própria (`01-...`, `02-...`, etc.)
+- Projetos práticos (quando aplicável) ficam em `projetos/`
+- Evoluções importantes e marcos são registrados em `CHANGELOG.md`
+- Commits seguem padrão por tópico/entrega (ex.: `feat`, `fix`, `docs`, `refactor`)
+
+**Sugestões de mensagens de commit:**
+- `docs: adiciona anotações da seção 05 (HTML5)`
+- `feat: adiciona projeto 01 (landing page)`
+- `refactor: melhora responsividade do projeto 02`
+- `fix: corrige validação de formulário no projeto 03`
+
+---
+
+## 📦 Estrutura do Repositório
 
 ```bash
 📂 desenvolvimento-web-completo
@@ -71,3 +89,28 @@ A cada avanço, o repositório será atualizado com **anotações, exercícios, 
  ├── 📄 CHANGELOG.md
  └── 📄 README.md
 
+---
+
+## 📘 Como Utilizar
+
+📥 Clone este repositório em sua máquina:
+```bash
+git clone https://github.com/sauloprado/fullstack-web-20cursos-20projetos.git
+```
+
+## 💻 Requisitos Técnicos
+
+- Git instalado
+- Editor de código (Visual Studio Code recomendado)
+- Navegador moderno para testes locais
+
+---
+
+## 📬 Contato
+
+💼 **Saulo Prado**  
+🔗 [LinkedIn](https://www.linkedin.com/in/saulo-prado-ab4a0b96/)
+
+---
+
+Feito com 🤍 e dedicação para fins educacionais. Aprender nunca sai de moda!
