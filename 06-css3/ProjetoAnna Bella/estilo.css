@@ -9,5 +9,35 @@ body {
 /* Estilo do contêiner principal */
 #principal {
   width: 900px;
+  height: 500px;
   margin: 0 auto;
+}
+
+/* Estilo do menu */
+#menu {
+  background: #c5c5b2;
+  padding: 15px;
+}
+
+/* Estilo dos links do menu */
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+}
+
+a:hover {
+  color: #ff69b4;
+}
+
+/* Estilo do rodapé */
+
+#rodape {
+  background: #c5c5b2;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
