@@ -9,7 +9,7 @@ body {
 /* Estilo do contêiner principal */
 #principal {
   width: 900px;
-  height: 500px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #ff69b4;
+  color: #a80b0b
 }
 
 /* Estilo do rodapé */
@@ -41,3 +41,36 @@ a:hover {
   width: 100%;
   bottom: 0;
 }
+#rodape p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilo dos textos */
+h1, h2, h3 {
+  color: #828271;
+  font-size: 1.25em;
+}
+
+p {
+  color: #666;
+}
+
+/* Estilo dos imagens */
+.img-responsive {
+  border: 10px solid #C3C3AE;
+
+}
+
+/* Estilo dos formulários */
+
+form {
+  background: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
